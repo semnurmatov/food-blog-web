@@ -33,6 +33,67 @@ html{
 }
 
 
+
+
+
+.carousel{
+    justify-content: center;
+    align-self: center;
+    left: 228px;
+    width: 850px;
+    height: auto;
+    
+}
+
+
+
+  
+  .carousel-item {
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    height: 550px;
+    /* display: flex; */
+  }
+  
+  .carousel-item img{
+    /* width: 40%; */
+    height: 550px;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*FAQ*/
 
 .leftside, .rightside{
@@ -140,7 +201,7 @@ html{
 
 .quote{
     display: block;
-    padding: 150px 350px;
+    padding: 15px 350px;
     color: white;
     font-size: 24px;
     font-weight: bolder;
@@ -162,7 +223,7 @@ h2 {
 }
 .container_text{
 
-    padding: 30px 200px 0px 200px;
+    padding: 10px 200px 0px 200px;
     text-align: center;
    /* color: white;*/
    color: black;
@@ -300,7 +361,7 @@ body {
 
 .container{
     background-size: cover;
-    padding: 80px 0px;
+    padding: 0px 0px;
     text-align: center;
    /* color: white;*/
     color: black;
