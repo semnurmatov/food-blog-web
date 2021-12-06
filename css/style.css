@@ -7,6 +7,9 @@ http://www.templatemo.com/tm-515-eatery
 */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito Sans:400,700' );
+@import url('https://fonts.googleapis.com/css?family=Playfair Display:400,700');
+
 
 body {
   background: #ffffff;
@@ -234,7 +237,23 @@ section {
   padding: 16px;
   text-decoration: none;
 }
+.fixed-item a {
+  
+  color: rgb(216, 215, 215);
+  
+}
 
+.fixed-item a:hover {
+  color: #c01111;
+}
+
+.fixed-item .active{
+  color: #ada9a9c9;
+}
+
+li a .active{
+  background-color: #ada9a9c9 !important;
+}
 
 /* .header-main{
   font-family: 'Nunito Sans';
@@ -484,6 +503,12 @@ background-color: #000000;
   background-repeat: no-repeat;
   background-attachment: local;
   background-size: cover;
+  height: 550px;
+  /* display: flex; */
+}
+
+.carousel-item img{
+  /* width: 40%; */
   height: 550px;
 }
 
@@ -951,7 +976,10 @@ footer .social-icon {
   color: #f9f9f9;
 }
 
-
+.text-center .p-4{
+  background-color: #000000e3;
+  color:  rgb(216, 215, 215);
+}
 
 /*---------------------------------------
    SOCIAL ICON              
@@ -986,6 +1014,8 @@ footer .social-icon {
   background: #ce3232;
   color: #ffffff;
 }
+
+
 
 
 
