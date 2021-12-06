@@ -36,24 +36,24 @@ html{
 
 
 
-.carousel{
+.carousel-about{
     justify-content: center;
     align-self: center;
-    left: 228px;
+    left: 300px !important;
     width: 850px;
     height: auto;
-    
 }
 
 
 
   
-  .carousel-item {
+  .carousel-item .about{
     background-position: inherit;
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
     height: 550px;
+    
     /* display: flex; */
   }
   
