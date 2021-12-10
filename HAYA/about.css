@@ -1,4 +1,29 @@
-/*scroll top button*/
+@media (min-width: 576px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+}
+
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -34,7 +59,7 @@ html{
 
 
 
-
+/*
 
 .carousel-about{
     justify-content: center;
@@ -55,43 +80,28 @@ html{
     height: 550px;
     
     /* display: flex; */
-  }
-  
+  /*}*/
+  /*
   .carousel-item img{
     /* width: 40%; */
-    height: 550px;
+  /*  height: 550px;
   }
-
-  
-
+*/
 
 
+.fa-chevron-circle-left{
+    font-size: 35px;
+}
+
+.fa-chevron-circle-right{
+    font-size: 35px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.fa-quote-left{
+    color: #4fd675;
+    font-size: 25px;
+}
 
 
 /*FAQ*/
@@ -209,7 +219,18 @@ html{
     text-align: center;
 }
 
+.quote p{
+    font-size: 26px; 
+    font-weight: bold;
+    line-height: 40px; 
+    color: white; 
+    font-family: Playfair Display;
+}
 
+cite{
+    font-size: 15px; 
+    font-weight: 200;
+}
 /*TEXT THANK YOU FOR READING*/
 
 h2 {
@@ -244,6 +265,11 @@ h2 {
    border-color: rgb(209, 208, 208);*/
 }
 
+
+::selection{
+    background-color: black;
+    color: white;
+}
 /**/
 /**/
 /**/
@@ -256,6 +282,8 @@ h2 {
 
 .image{ /*main container*/
     align-items: center;
+    display: inline-block;
+    margin: 5px;
     position: relative; /*lets us position the overlay absolutely 100% width and height with the background*/
     width: 360px;
  /*   margin-bottom: 100px;*/
@@ -515,9 +543,9 @@ body {
 
 .gotopbtn{
     position: fixed;
+
     width: 40px;
     height: 40px;
-/*    background: #2f682f;*/
     background: #000000;
     bottom: 38px;
     right: 20px ;
