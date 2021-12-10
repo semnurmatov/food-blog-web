@@ -28,13 +28,13 @@ html{
     scroll-behavior: smooth;
 }
 
-* {
+/*this is to take away any style that the browser sets by default*/
+*{
     margin: 0;
     padding: 0;
     border: 0;
+   font-family: "montserrat",sans-serif;
 }
-
-
 
 /*TEXT*/
 
@@ -195,12 +195,11 @@ html{
 }
 
 
-/*PARALLAX BAKCGROUND IMAGE SCROLL*/
+/*PARALLAX IMAGE EFFECT SCROLL*/
 
 
 .parallax {  /*https://wallpapercave.com/wp/wp5101558.jpg*/
     background: url("https://tinysalt.loftocean.com/wp-content/uploads/2020/03/dilyara-garifullina-GAdALRhpups-unsplash.jpg") repeat fixed 100%;
-  /*  padding: 25px;*/
     background-size: cover; /*not to zoom in*/
 }
 
@@ -246,11 +245,7 @@ h2 {
 
     padding: 10px 200px 0px 200px;
     text-align: center;
-   /* color: white;*/
    color: black;
-/*   border-top: solid;
-   border-width: .5px; 
-   border-color: rgb(209, 208, 208);*/
 }
 .container_text p{
 
@@ -258,11 +253,7 @@ h2 {
     text-align: justify;
     font-size: 16px;
     margin: 0;
-   /* color: white;*/
    color: black;
-/*   border-bottom: solid;
-   border-width: .5px; 
-   border-color: rgb(209, 208, 208);*/
 }
 
 
@@ -270,12 +261,12 @@ h2 {
     background-color: black;
     color: white;
 }
-/**/
-/**/
-/**/
-/**/
 
 
+/**/
+/**/
+/**/
+/**/
 
 /*PHOTOS LINK TO RECIPES*/
 
@@ -343,14 +334,8 @@ h2 {
   
 }
 
-/*.image__description{
-    font-size: 1.3em;
-   font-weight: bold;
-    margin-top: 0.25em; to decrease space between title and descri
 
-}*/
-
-.image__title /*.image__description*/{
+.image__title {
     text-decoration-line: none;
     color: white;
     font-weight: bold;
@@ -375,12 +360,7 @@ h2 {
 
 
 /*FOOTER*/
-/*this is to take away any style that the browser sets by default*/
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "montserrat",sans-serif; 
-}
+
 
 body {
    /* background: #333;*/
@@ -442,7 +422,11 @@ body {
     padding: 0 10px;
     text-transform: uppercase;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 13px;
+}
+
+.btn:hover{
+    color: white;
 }
 
 .agreetoterms{
