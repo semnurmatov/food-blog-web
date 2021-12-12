@@ -243,7 +243,11 @@ section {
   
 }
 
-.fixed-item a:hover {
+/* .fixed-item a:hover {
+  color: #c01111;
+} */
+
+.hover-red {
   color: #c01111;
 }
 
@@ -297,9 +301,9 @@ header{
   margin: 0 3rem 0 0;
 }
 
-.nav-link:hover{
+/* .nav-link:hover{
   color: #20e706 !important;
-}
+} */
 
 /* Search form */
 /* #search-box{

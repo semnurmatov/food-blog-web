@@ -1,14 +1,29 @@
-const hamMenu = $(".aria-expanded");
-const ftr = $(".text-reset");
+const ftr = $("li a");
 
 
-if(hamMenu == true){
+$(".navbar-toggler aria-expanded").click(function(){
     $(".search-box").remove();
-};
+})
+    
 
-$("p").forEach(element => {
-    element.on("mouseover", function(){
-             $("p").css("color", "red");
-        });
+
+$(".fixed-item a").hover(function(){
+    $(this).css("color","red");
+}, function(){
+    $(this).css("color","rgb(216, 215, 215)");
 });
+
+$(".nav-link").hover(function(){
+    $(this).css("color","#20e706");
+
+}, function(){
+    $(this).css("color","#575757");
+});
+
+
+// $(".nav-link").on({
+//     click: function(){
+//         $(this).css("color", "grey");
+//     }
+// });
     
