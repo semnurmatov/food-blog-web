@@ -1,29 +1,3 @@
-@media (min-width: 576px) { 
-
-}
-
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-
-}
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-
-}
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-
-}
-
-/* XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) { 
-
-}
-
-
-
 html{
     scroll-behavior: smooth;
 }
@@ -36,11 +10,11 @@ html{
    font-family: "montserrat",sans-serif;
 }
 
-/*TEXT*/
+/*banner*/
 
 .headerbanner{
     position: relative;
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -57,36 +31,24 @@ html{
     text-align: center;
 }
 
-
-
-/*
-
-.carousel-about{
-    justify-content: center;
-    align-self: center;
-    left: 300px !important;
-    width: 850px;
-    height: auto;
+.heading p{
+    font-size: 35px;
+    text-align: center;
 }
 
 
+.container_text h2{
+    font-size: 32px; 
+    font-family: Playfair Display;
+}
 
-  
-  .carousel-item .about{
-    background-position: inherit;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-size: cover;
-    height: 550px;
-    
-    /* display: flex; */
-  /*}*/
-  /*
-  .carousel-item img{
-    /* width: 40%; */
-  /*  height: 550px;
-  }
-*/
+
+/*carousel*/
+
+.slider {
+    width: 75%;
+    left: 13%;
+}
 
 
 .fa-chevron-circle-left{
@@ -110,16 +72,18 @@ html{
     height: 610px;
     width: 100%;
     background-color: #0c0c0c;
+    align-content: center;
 }
+
 
 .leftimage{
     display: block;
     position: relative;
-    margin: 0px;
+    margin: 0;
     max-width: 100%;
     top: 50px;
-    left: 120px;
-    right: 10px;
+ /*   left: 10%;
+    right: 3%;*/
     background-image: url("https://tinysalt.loftocean.com/wp-content/uploads/2020/03/katerina-smirnova-aSF_qBRVyg4-unsplash-1024x1024.jpg");
     width: 530px;
     height: 530px;
@@ -133,6 +97,7 @@ html{
     font-weight: bold;
     padding-top: 50px;
     padding-bottom: 40px;
+    font-family: Playfair Display;
 }
 
 .faq {
@@ -210,7 +175,9 @@ html{
 
 .quote{
     display: block;
-    padding: 15px 350px;
+/*    padding: 15px 350px;*/
+padding-bottom: 5%;
+margin: 0;
     color: white;
     font-size: 24px;
     font-weight: bolder;
@@ -242,10 +209,9 @@ h2 {
 
 }
 .container_text{
-
-    padding: 10px 200px 0px 200px;
+  /*  padding: 10px 150px 0px 150px;*/
     text-align: center;
-   color: black;
+    color: black;
 }
 .container_text p{
 
@@ -540,4 +506,3 @@ body {
     font-size: 15px;
     border-radius: 25px;
 }
-
